@@ -2,9 +2,9 @@ import math
 
 def my_abs(x);
   try:
-    if x < 0:
-      return -x
+    if y < 0:
+      return -y
     else:
-      return x
+      return y
   except TypeError:
     return math.nan
